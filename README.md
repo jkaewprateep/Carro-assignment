@@ -2,24 +2,24 @@
 To create custom forms for surveys and questionnaires!
 
 ### Requirement 1: Backend (API): ###
-🧸💬 By using controllers to handle message communications in the project and to ProsgreDB, create a login form, history form, user detail form, and home page.
-🧸💬 Application default routing, application proxy, application settings and resources, communication functions, and CSS style for the global pages are added.
-🐑💬 Application resources and CSS files you can apply change at a single point of configuration when datasets ( datasetDB object ) are created as classes and by the controller.
-🐐💬 Input and output are dynamics user control with message communication registered with EventListerners.
+<br>🧸💬 By using controllers to handle message communications in the project and to ProsgreDB, create a login form, history form, user detail form, and home page.</br>
+<br>🧸💬 Application default routing, application proxy, application settings and resources, communication functions, and CSS style for the global pages are added.</br>
+<br>🐑💬 Application resources and CSS files you can apply change at a single point of configuration when datasets ( datasetDB object ) are created as classes and by the controller.</br>
+<br>🐐💬 Input and output are dynamics user control with message communication registered with EventListerners.</br>
 
 * User can register and login by the page /loginform build from controller.
 * Add dynamic form inputs text and button
 
 ### Requirement 2: Public Form (UI): ###
-🧸💬 User interaction is on a single page of MVC control, continue working with a message to complete the task.
-🦭💬 Add by summary email verification and communication, SMTP email and free email API * Some email server required install of email node and problem fixed * 
+<br>🧸💬 User interaction is on a single page of MVC control, continue working with a message to complete the task.</br>
+<br>🦭💬 Add by summary email verification and communication, SMTP email and free email API * Some email server required install of email node and problem fixed * </br>
 
 * Customer can submit a form depending on the form render /loginform
 * After submitting the form, API has to send mail async sendemail()
 
 ### API Basics: ###
-🧸💬 Customer and Login / Register by active script. Click on the Register checkbox the interaction running under active script to continue work on the same page.
-🧸💬 API Router control, ORM resources, Auth control ( custom as userController ), error handling, and versions are created with specific methods included configured in the proxy.
+<br>🧸💬 Customer and Login / Register by active script. Click on the Register checkbox the interaction running under active script to continue work on the same page.</br>
+<br>🧸💬 API Router control, ORM resources, Auth control ( custom as userController ), error handling, and versions are created with specific methods included configured in the proxy.</br>
 
 * Customer can submit a form depending on the form render.
 * API Routes and Controllers implemented!
@@ -29,11 +29,12 @@ To create custom forms for surveys and questionnaires!
 * API Versioning implemented!
 
 ### Database: ####
-🐑💬 Communication database API, installed on VSCode / VsStudio to create struct of datasets for communication and use data table as database communication. 
+<br>🐑💬 Communication database API, installed on VSCode / VsStudio to create struct of datasets for communication and use data table as database communication. </br>
+
 * ProstgreDB with Npgsql.EntityFrameworkCore.PostgreSQL as DBContext implemented!
 
 ### Extra: ###
-🐐💬 Same as described and followed requirements by inches !
+<br>🐐💬 Same as described and followed requirements by inches !</br>
 
 * All are in controllers
 * All are async mothods
@@ -41,7 +42,7 @@ To create custom forms for surveys and questionnaires!
 * Use .NET 6 with C#
 
 ### Sample controller for database and message events ###
-🐑💬 All communication using controller and message event register for the example of a dataset with information created.
+<br>🐑💬 All communication using controller and message event register for the example of a dataset with information created.</br>
 
 ```
 // api/<controller>/Addemployeedata
@@ -74,7 +75,7 @@ public IActionResult Addemployeedata(string Username, string Name, string Lastna
 ```
 
 ### EventListeners and active controls ###
-🦭💬 EventLister to listen and respond to registered events as a priority, active events can apply logic here.
+<br>🦭💬 EventLister to listen and respond to registered events as a priority, active events can apply logic here.</br>
 
 ```
 constructor(props) {
@@ -124,7 +125,7 @@ name_handleChange(event) {
 ```
 
 ### Render function ###
-🦭💬 For render user controls in the page are working with active event listener.
+<br>🦭💬 For render user controls in the page are working with active event listener.</br>
 
 ```
 render() {
@@ -181,26 +182,26 @@ render() {
 ```
 
 ## Home Page ##
-🦭💬 Start page and you can navigate using navigation toolbar
+<br>🦭💬 Start page and you can navigate using navigation toolbar</br>
 
 ![Alt text](https://github.com/jkaewprateep/Carro-assignment/blob/main/images/01.png)
 
 ## Login & Register Page ##
-🦭💬 Log in and register for example of active script and communication event.
+<br>🦭💬 Log in and register for example of active script and communication event.</br>
 
 ![Alt text](https://github.com/jkaewprateep/Carro-assignment/blob/main/images/02.png)
 
 ## User Detail Page ##
-🦭💬 To examine newly registered users and detail input.
+<br>🦭💬 To examine newly registered users and detail input.</br>
 
 ![Alt text](https://github.com/jkaewprateep/Carro-assignment/blob/main/images/03.png)
 
 ## History Page ##
-🦭💬 To examine user history as an active script.
+<br>🦭💬 To examine user history as an active script.</br>
 
 ![Alt text](https://github.com/jkaewprateep/Carro-assignment/blob/main/images/04.png)
 
 ## Controllers Codings ##
-*** 🦭💬 To observe of coding all are managed codes ***
+<br>*** 🦭💬 To observe of coding all are managed codes ***</br>
 
 ![Alt text](https://github.com/jkaewprateep/Carro-assignment/blob/main/images/05.png)
