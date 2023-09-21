@@ -1,0 +1,41 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+    float: right;
+    text-align: right;
+}
+
+.target_text {
+    color: red;
+    font-weight: bold;
+}
+
+.explain_text {
+    color: blue;
+}
+
+.checkmark {
+/*    position: absolute;
+    top: 0;
+    left: 0;*/
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+body {
+    background-image: url("./background2.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
