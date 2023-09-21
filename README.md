@@ -1,17 +1,17 @@
 # Carro-assignment
 Carro assignment
 
-## Result image ##
+## Home Page ##
 ![Alt text](https://github.com/jkaewprateep/Carro-assignment/blob/main/images/01.png)
 
-## Result image ##
+## Login & Register Page ##
 ![Alt text](https://github.com/jkaewprateep/Carro-assignment/blob/main/images/02.png)
 
-## Result image ##
+## USer Detail Page ##
 ![Alt text](https://github.com/jkaewprateep/Carro-assignment/blob/main/images/03.png)
 
-## Result image ##
+## History Page ##
 ![Alt text](https://github.com/jkaewprateep/Carro-assignment/blob/main/images/04.png)
 
-## Result image ##
+## Controllers Codings ##
 ![Alt text](https://github.com/jkaewprateep/Carro-assignment/blob/main/images/05.png)
